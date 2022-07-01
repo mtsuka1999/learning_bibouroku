@@ -1,0 +1,5 @@
+﻿なにをするのか,実装方法,実行結果,詳細,参考
+文字列や数値で表されたラベルを，0~(ラベル種類数-1)までの数値に変換,"from sklearn import preprocessing
+le = preprocessing.LabelEncoder()
+labels = ['positive', 'negative', 'positive']
+le.fit(labels)","[1, 1, 0]","positive'→1,'negative'→0",https://gotutiyan.hatenablog.com/entry/2020/09/08/122621
